@@ -56,7 +56,19 @@ channel; it is not offered to the public and has no other users.</p>
 access). After revocation, or on request, the operator deletes the stored token and statistics within 7 days.</p>
 
 <h2>Contact</h2>
-<p>Questions about this policy: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+<p>Questions about this policy: <span id="contact">kacper.ramenda+yt [at] gmail [dot] com</span>.</p>
+<script>
+  // assembled in the browser so the address is not in the page source for spam bots
+  (function () {
+    var u = ["kacper", "ramenda"].join(".") + "+yt", d = ["gmail", "com"].join(".");
+    var a = document.createElement("a");
+    a.href = "mai" + "lto:" + u + "@" + d;
+    a.textContent = u + "@" + d;
+    var el = document.getElementById("contact");
+    el.textContent = "";
+    el.appendChild(a);
+  })();
+</script>
 
 <h2>Changes</h2>
 <p>Changes to this policy are published on this page with a new “Last updated” date.</p>
